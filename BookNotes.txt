@@ -28,3 +28,12 @@ String class is a growable UTF-8 encoded String
 continue::link
     https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html#handling-potential-failure-with-the-result-type
 
+funktioner returnerar antingen OK eller Err (enums) med ett felmeddelande typ som nedan...
+    // Följande rad betyder essentiellt att om det inte fungerar; 
+    // Prefixa felmeddelande i "Err" med argumentet (strängen) som är given. 
+    // Känns som att formuleringen blir lite galen va?
+    .expect("Failed to read line!"); 
+
+continue::link
+    https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html#comparing-the-guess-to-the-secret-number
+
